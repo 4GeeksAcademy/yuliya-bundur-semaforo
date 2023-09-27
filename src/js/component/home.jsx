@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
 //create your first component
 
 const Home = () => {
@@ -37,22 +34,19 @@ const Home = () => {
 				<div className="cols-3 ">
 					<button type="button" className={"rounded-circle btn btn-" + red}
 						onClick={changeRed}
-						style={{ width: "150px", height: "150px" }}
-					></button>
+						style={{ width: "150px", height: "150px" }}></button>
 				</div>
 				<br />
 				<div className="cols-3 ">
 					<button type="button" className={"rounded-circle btn btn-" + green}
 						onClick={changeGreen}
-						style={{ width: "150px", height: "150px" }}
-					></button>
+						style={{ width: "150px", height: "150px" }}></button>
 				</div>
 				<br />
 				<div className="cols-3 ">
 					<button type="button" className={"rounded-circle btn btn-" + yellow}
 						onClick={changeYellow}
-						style={{ width: "150px", height: "150px" }}
-					></button>
+						style={{ width: "150px", height: "150px" }}></button>
 				</div>
 			</div>
 
