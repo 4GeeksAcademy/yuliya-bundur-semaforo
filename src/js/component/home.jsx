@@ -32,19 +32,19 @@ const Home = () => {
 				style={{ color: "white" }}>semaforo</h1>
 			<div className="d-flex  flex-column mb-3">
 				<div className="cols-3 ">
-					<button type="button" className={"rounded-circle btn btn-" + red}
+					<button type="button" id="semaforo-button" className={"rounded-circle btn btn-" + red}
 						onClick={changeRed}
 						style={{ width: "150px", height: "150px" }}></button>
 				</div>
 				<br />
 				<div className="cols-3 ">
-					<button type="button" className={"rounded-circle btn btn-" + green}
+					<button type="button" id="semaforo-button" className={"rounded-circle btn btn-" + green}
 						onClick={changeGreen}
 						style={{ width: "150px", height: "150px" }}></button>
 				</div>
 				<br />
 				<div className="cols-3 ">
-					<button type="button" className={"rounded-circle btn btn-" + yellow}
+					<button type="button" id="semaforo-button" className={"rounded-circle btn btn-" + yellow}
 						onClick={changeYellow}
 						style={{ width: "150px", height: "150px" }}></button>
 				</div>
